@@ -1,4 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
   <head>
   <style>
@@ -34,15 +34,15 @@
   </body>
 <script language="javascript">
     function changeImage() {
-        if (document.getElementById("imgClickAndChange").endsWith("duck1.jpg")) 
+        if (document.getElementById("imgClickAndChange").src.endsWith("duck1.jpg")) 
         {
             document.getElementById("imgClickAndChange").src = "duck2.jpg";
         }
-        else if (document.getElementById("imgClickAndChange").endsWith("http://90s.uniquegeeks.net/ducks/duck2.jpg")) 
+        else if (document.getElementById("imgClickAndChange").src.endsWith("duck2.jpg")) 
         {
             document.getElementById("imgClickAndChange").src = "duck3.jpg";
         }
-        else if (document.getElementById("imgClickAndChange").endsWith("http://90s.uniquegeeks.net/ducks/duck3.jpg")) 
+        else if (document.getElementById("imgClickAndChange").src.endsWith("duck3.jpg")) 
         {
             document.getElementById("imgClickAndChange").src = "duck1.jpg";
         }
