@@ -1,0 +1,40 @@
+body {
+    background-color: darkgray;
+    background-image: url(bg.jpg);
+    background-repeat: repeat;
+    font-family: 'Comic Sans MS';
+    text-align: center;
+    background-attachment: fixed;
+    color: white;
+    font-size: x-large;
+}
+
+.nav {
+    background-color: black;
+    border: 1px solid darkgray;
+    padding: 5px;
+}
+
+.nav a {
+    display: inline-block;
+    background-color: #000055;
+    height: 30px;
+    min-width: 50px;
+    color: white;
+    padding: 8px;
+}
+
+.nav a:hover {
+    background-color: #005555;
+}
+
+.contentbox {
+    background-color: darkgray;
+}
+
+blink {
+    -webkit-animation-name: blink;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: cubic-bezier(1.0,0,0,1.0);
+    -webkit-animation-duration: 1s;
+}
